@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<style name="TitlebarBackgroundStyle">
+        <item name="android:background">@drawable/bg_title</item>
+    </style>
+    <style name="Theme.ZgzBus" parent="android:Theme"> 
+        <item name="android:windowTitleBackgroundStyle">@style/TitlebarBackgroundStyle</item>
+    </style>	
+
+
+	<style name="Alert" parent="android:Theme.Dialog">
+		<item name="android:windowBackground">@null</item>
+	</style>
+
+	<style name="InfoPoste" parent="android:TextAppearance">
+	</style>
+
+	<style name="InfoPoste.Titulo">
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:background">#AA0000</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:padding">2sp</item>
+	</style>
+
+
+	<style name="InfoPoste.Destino">
+		<item name="android:paddingLeft">4sp</item>
+	</style>
+
+	<style name="InfoPoste.Proximo">
+		<item name="android:paddingLeft">4sp</item>
+	</style>
+
+	<style name="InfoPoste.Hora">
+		<item name="android:textSize">10sp</item>
+		<item name="android:textColor">@color/legal</item>
+		<item name="android:gravity">right</item>
+	</style>
+
+	<style name="InfoPoste.Legal">
+		<item name="android:textSize">10sp</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:padding">4sp</item>
+
+		<item name="android:textColor">@color/legal</item>
+	</style>
+
+
+	<style name="Favoritos" parent="android:TextAppearance">
+	</style>
+
+	<style name="Favoritos.poste">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:padding">4sp</item>
+		<item name="android:width">50sp</item>
+
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:background">#AA0000</item>
+		 <item name="android:shadowColor">#ff335e80</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">1</item>
+  
+	</style>
+
+	<style name="Favoritos.favorito">
+		<item name="android:textStyle">bold</item>
+		<item name="android:padding">2sp</item>
+	</style>
+
+	<style name="Favoritos.descripcion">
+		<item name="android:textSize">10sp</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:paddingLeft">4sp</item>
+	</style>
+
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_weight="0">
+
+	<TextView android:id="@+id/ultima_act" android:text="0:00"
+			android:gravity="right" style="@style/InfoPoste.Hora"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" 
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+			/>
+
+
+	<RelativeLayout android:id="@+id/scroll"
+		android:layout_alignParentTop="true" android:layout_above="@+id/cabecera"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginBottom="70dip">
+
+	
+		
+			<ListView android:id="@+id/android:list"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:fastScrollEnabled = "true"
+				android:scrollingCache = "true"
+				android:cacheColorHint = "#00000000" />
+
+
+			<TextView android:id="@+id/android:empty" android:text="@string/main_no_items"
+				android:layout_below="@+id/android:list" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" 
+				android:gravity="center_vertical|center_horizontal" />
+		
+	</RelativeLayout>
+
+	<!-- Pie -->
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:id="@+id/pieLayout" android:layout_marginTop="-70dip"
+		android:gravity="center" android:layout_gravity="center"
+		
+		android:paddingTop="2dip"
+		android:paddingBottom="2dip"
+		android:background="@drawable/fondo_botones">
+
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/buscar" android:gravity="center"
+			android:layout_gravity="center" android:layout_marginRight="4dip"
+			
+			android:background="@drawable/fondo_buscar">
+
+			<EditText android:id="@+id/campo_poste"
+				android:layout_width="wrap_content" android:layout_height="fill_parent"
+				android:inputType="number" android:maxLength="4" android:hint="poste" />
+
+			<Button android:id="@+id/boton_subposte" android:layout_width="36dip"
+				android:layout_height="36dip" android:background="@drawable/icon_parada_on"
+				android:layout_gravity="center" />
+
+		</LinearLayout>
+
+		<Button android:id="@+id/boton_subguardar"
+			android:layout_width="48dip" android:layout_height="48dip"
+			android:background="@drawable/boton_guardar"
+			android:layout_toRightOf="@+id/buscar" android:layout_gravity="center"
+			android:layout_marginLeft="4dip" android:layout_marginRight="4dip" />
+
+		<Button android:id="@+id/boton_subfavoritos"
+			android:layout_width="48dip" android:layout_height="48dip"
+			android:background="@drawable/boton_favoritos"
+			android:layout_toRightOf="@+id/boton_subguardar"
+			android:layout_gravity="center" android:layout_marginLeft="4dip"
+			android:layout_marginRight="4dip" />
+
+		<Button android:id="@+id/boton_subfbuses" android:layout_width="48dip"
+			android:layout_height="48dip" android:background="@drawable/boton_buses"
+			android:layout_toRightOf="@+id/boton_subfavoritos"
+			android:layout_gravity="center" android:layout_marginLeft="4dip"
+			android:layout_marginRight="4dip" />
+	</LinearLayout>
+</LinearLayout>
+
+

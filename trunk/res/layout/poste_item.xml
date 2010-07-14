@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="6dip">
+  
+        <TextView
+            android:id="@+id/bus_linea"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/bus_proximo"
+            android:gravity="center"
+       		android:text="-"
+       		android:cacheColorHint = "#00000000"
+       		
+       		android:background="@drawable/bg_poste"
+       		
+       		android:textSize = "20sp"
+			android:textStyle = "bold"
+			android:textColor = "@android:color/white"
+	
+			android:shadowColor="#ff335e80"
+   	    	android:shadowDx="1"
+			android:shadowDy="1"
+			android:shadowRadius="1"
+       		/>
+  
+  	
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+    
+        <TextView
+            android:id="@+id/bus_destino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            style="@style/InfoPoste.Destino"
+            android:layout_toRightOf="@id/bus_linea"
+            android:text="-"
+            />
+        />
+        <TextView
+            android:id="@+id/bus_proximo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            style="@style/InfoPoste.Proximo"
+            android:layout_below="@id/bus_destino"
+            android:layout_toRightOf="@id/bus_linea"
+            android:text="-"
+            />
+        />
+    </LinearLayout>
+	
+</LinearLayout>
