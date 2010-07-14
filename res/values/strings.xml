@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ZgzBus</string>
+	<string name="app_version">0.4.1</string>
+	<string name="app_licencia">http://creativecommons.org/licenses/by-nc-sa/3.0/es
+	</string>
+	<string name="app_autor">Francho(Lab)</string>
+	<string name="app_autor_id">francho.org</string>
+	<string name="app_autor_mail">android@francho.org</string>
+	<string name="app_autor_web">http://francho.org/lab/</string>
+	<string name="app_description">Consulta cuando llega tu bus de Tuzsa (Zaragoza)
+	</string>
+
+	<string name="loading">Cargando...</string>
+	<string name="poste">Nº de poste...</string>
+	<string name="refresh">ver</string>
+	<string name="main_no_items">Sin información</string>
+	<string name="ok">ok</string>
+	<string name="cancel">cancelar</string>
+	<string name="untitled">sin título</string>
+
+	<string name="legal">Información obtenida de http://www.tuzsa.es/
+		\nPuede sufrir actualizaciones posteriores y/o verse afectada por las
+		circunstancias de la circulacion y otras causas ajenas a nuestra
+		voluntad.</string>
+
+	<string name="tit_buses">Líneas...</string>
+	<string name="tit_direccion">Direccion...</string>
+	<string name="tit_favoritos">Mis paradas</string>
+	<string name="tit_paradas">Parada...</string>
+	<string name="tit_guardar">Guardar poste %1$s</string>
+	<string name="tit_choose_alarm">Avisarme cuando falten...</string>
+
+	<string name="menu_alarma">Poner alarma</string>
+	<string name="menu_guardar">Guardar parada en favoritos</string>
+	<string name="menu_poste">Cambiar parada</string>
+	<string name="menu_tuzsa">Consultar en www.Tuzsa.es</string>
+
+	<string name="poste_ayuda">Introduce el número de parada a consultar. Cada
+		parada tiene un número, fíjate en el poste para averiguar el de la
+		tuya.</string>
+
+	<string name="alarm_bus">Llega el bus %1$s a la parada %2$s</string>
+	<string name="no_favs">No hay paradas guardadas.\nUsa el botón de añadir
+		favorito para crear tu lista.</string>
+	<string name="no_poste">Debes cargar primero la parada a guardar</string>
+	
+	<string name="notification_title">¡Llega el autobús!</string>
+	
+	<string name="updated_at">Actualizado a las %1$s</string>
+	<string name="err_bus_cerca">No se puede fijar una alarma.\nEl autobús llega a la parada en %1$d minutos.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:visibility="visible">
+	
+	<TextView style="@style/InfoPoste.Titulo" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Introduce parada" />
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:visibility="visible" android:padding="20dip">
+		
+		
+		
+		<EditText android:id="@+id/campo_poste" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="100"
+			android:inputType="number" android:maxLength="4" android:hint="@string/poste" />
+		<Button android:id="@+id/boton_go" android:text="@string/refresh"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<Button android:id="@+id/boton_cancel" android:text="@string/cancel"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			
+					
+	</LinearLayout>
+	
+	<TextView android:id="@+id/legal" style="@style/InfoPoste.Legal"				
+				android:text="@string/poste_ayuda" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</LinearLayout>
+</ViewFlipper>

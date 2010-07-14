@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@+id/main" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/app_autor"
+		android:gravity="center" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/app_autor_web"
+		android:gravity="center" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/app_autor_mail"
+		android:gravity="center" />
+		
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="Gráficos Irene Joven"
+		android:gravity="center" 
+		android:paddingTop="4sp" />	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="http://www.kambia2.com/"
+		android:gravity="center" />		
+		 	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="Información de autobuses:"
+		android:gravity="center" 
+		android:paddingTop="4sp" />	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="http://www.tuzsa.es/"
+		android:gravity="center" />
+</LinearLayout>
+</ViewFlipper>
